@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+int n, X=0;
+cin>> n;
+string st;
+while(n--){
+  cin>>st;
+  if(st == "++X" || st == "X++")
+ {
+    X++;
+ }
+ else 
+ X--;
+
+}
+cout << X << endl;
+    return 0;
+}
